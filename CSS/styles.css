@@ -1,0 +1,27 @@
+
+h1{
+    color: green;
+}
+
+
+.main_heading{
+    color: orange;
+    text-align: center;
+}
+
+
+
+p{
+    color: blue;
+}
+
+#dataslid{
+    color: rgb(221, 23, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+body{
+    background-color: aqua;
+} 

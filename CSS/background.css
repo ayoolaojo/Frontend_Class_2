@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:teal ;
+    height: 100vh;
+    background-image:url(./Ronaldo.jpg) ;
+    background-repeat:repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: scroll;
+
+
+
+
+}
+
+h1 {
+    color: white;
+   
+    margin-top: 50px;
+    border: 2px ridge yellowgreen ;
+    margin-left: 600px;
+
+    /* border-width: 1px; */
+   
+
+
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius:100px ;
+}
+
+.box {
+    background-color: yellow;
+    height: 300px;
+    width: 150px;
+    border-radius:20px ;
+    padding: 25px;
+}
+
+
