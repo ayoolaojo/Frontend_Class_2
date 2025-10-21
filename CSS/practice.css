@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: auto;
+    background-color: #949492;
+    padding: 20px 20px 40px 20px;
+}
+
+:root {
+
+    --textColor:white;
+    --Roboto:'Roboto Serif';
+    --headerTextBg:#7b6c63;
+
+}
+
+.main_container {
+    height: 89vh;
+    width: 100%;
+    background-color:#483932;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    /* background-color:skyblue; */
+    
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+header h1 {
+    font-family:var(--Roboto);
+    color: var(--textColor);
+    font-size: 1rem;
+    padding: 7px;
+   border-radius: 10px;
+    background-color:var(--headerTextBg);
+
+   
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: var(--Roboto);
+    color: var(--textColor);
+    font-size: 0.75rem;
+    background-color: var(--headerTextBg);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+main {
+    height:74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+   
+}
+
+main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--textColor);
+    background-color:var(--headerTextBg) ;
+    border-radius: 20px;
+    padding: 0 10px;
+   
+    
+}
+
+main h1:nth-child(2) {
+    margin-top: -20px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--textColor);
+    background-color:var(--headerTextBg) ;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+
+
+main p:nth-child(even){
+     margin-top: -20px;
+    
+}
+
+
+main button {
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:#d85936;
+    color: var(--textColor);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0  1.5px;
+}
+
+main button span {
+    background-color: #f47861;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+
+
+
+
+
+
+
