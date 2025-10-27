@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+   --bgColor:yellow;
+   --textColor:blue;
+}
+
+
+header {
+    height: 15vh;
+    width: 100%;
+    background-color:var(--bgColor);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    height: 40vh;
+    width: 30%;
+    background-color:var(--bgColor);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--textColor);
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul li a {
+    color: var(--textColor);
+}
